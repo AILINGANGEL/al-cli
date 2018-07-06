@@ -1,0 +1,29 @@
+{
+  "name": "al-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "al-cli": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AILINGANGEL/al-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AILINGANGEL/al-cli/issues"
+  },
+  "homepage": "https://github.com/AILINGANGEL/al-cli#readme",
+  "dependencies": {
+    "commander": "^2.16.0",
+    "ora": "^2.1.0",
+    "prompt": "^1.0.0",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
